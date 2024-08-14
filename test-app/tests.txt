@@ -1,0 +1,34 @@
+Test below queries on graphql browser on http://localhost:9000/graphiql
+1. test server
+{
+    test
+}
+2. student list
+{
+    studets{
+        id
+        firstName
+        lastName
+        email
+    }
+}
+3. custom field
+{
+    students{
+        id
+        fullName
+    }
+}
+4. nested info
+{
+   students{
+      id
+      fullName
+      college {
+         id
+         name
+         location
+         rating
+      }
+   }
+}
