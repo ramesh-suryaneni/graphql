@@ -1,0 +1,11 @@
+type Query  {
+   test: String
+   students:[Student]
+}
+type Student {
+   id:ID!
+   firstName:String
+   lastName:String
+   email:String
+   collegeId:String
+}

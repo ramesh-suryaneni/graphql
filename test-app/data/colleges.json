@@ -1,0 +1,15 @@
+[
+    {
+       "id": "col-101",
+       "name": "BHU",
+       "location": "Uttar Pradesh",
+       "rating":5.0
+    },
+    
+    {
+       "id": "col-102",
+       "name": "OUEC",
+       "location": "Telangana",
+       "rating":4.5
+    }
+ ]
