@@ -6,6 +6,13 @@ type Student {
    id:ID!
    firstName:String
    lastName:String
+   fullName:String
    email:String
-   collegeId:String
+   collegeId:College
+}
+type College {
+   id:ID!
+   name:String
+   location:String
+   rating:Float
 }
