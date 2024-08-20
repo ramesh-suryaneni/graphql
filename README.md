@@ -11,7 +11,7 @@ a simple node-express apollo server implementation demonstrating various GraphQL
 ### test?
 click on browser http://localhost:9000/graphiql
 
-Test these queries & mutations on graphql browser using [tests.txt](/tests.txt)
+Test these queries & mutations on graphql browser using [tests.txt](test-app/tests.txt)
 ## 2. graphql-api
 This project aims to build a simplified e-commerce platform using GraphQL as the API layer and multiple microservices for handling different business domains. We'll focus on three core microservices: Product, Inventory, and Order.
 
