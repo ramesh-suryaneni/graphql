@@ -1,0 +1,24 @@
+type Product {
+  productId: ID!
+  name: String!
+  description: String
+  price: Float!
+  inventory: Int
+}
+
+type Order {
+  orderId: ID!
+  customer: Customer
+  items: [OrderItem]
+  status: OrderStatus
+}
+
+type Query {
+  products(filter: ProductFilter): [Product]
+  product(id: ID!): Product
+  order(id: ID!): Order
+}
+
+type Mutation {
+  createOrder(input: OrderInput): Order
+}
