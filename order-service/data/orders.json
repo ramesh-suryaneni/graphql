@@ -1,0 +1,59 @@
+[
+    {
+        "orderId": "1001",
+        "customerId": "cust101",
+        "orderItems": [
+          {
+            "productId": "101",
+            "quantity": "1",
+            "price": "10"
+          }
+        ],
+        "shippingAddress": {
+          "address":"hyderabad"
+        },
+        "paymentDetails": {
+          "paymentType":"credit card"
+        },
+        "orderStatus": "dispatched"
+      },
+
+      {
+        "orderId": "1002",
+        "customerId": "cust102",
+        "orderItems": [
+          {
+            "productId": "101",
+            "quantity": "2",
+            "price": "20"
+          }
+        ],
+        "shippingAddress": {
+          "address":"pune"
+        },
+        "paymentDetails": {
+          "paymentType":"upi"
+        },
+        "orderStatus": "delivered"
+      },
+
+      {
+        "orderId": "1003",
+        "customerId": "cust103",
+        "orderItems": [
+          {
+            "productId": "102",
+            "quantity": "1",
+            "price": "10"
+          }
+        ],
+        "shippingAddress": {
+          "address":"delhi"
+        },
+        "paymentDetails": {
+          "paymentType":"netbanking"
+        },
+        "orderStatus": "shipped"
+      }
+
+]
