@@ -1,20 +1,34 @@
+
+type Customer {
+  id: ID
+  name: String
+  address: String
+}
+type OrderItem {
+  productId: ID
+  quantity: String
+  price: String
+}
 type Product {
-  productId: ID!
+  id: ID!
   name: String!
   description: String
-  price: Float!
+  price: Float
   inventory: Int
 }
-
 type Order {
   orderId: ID!
   customer: Customer
   items: [OrderItem]
-  status: OrderStatus
+  status: String
 }
-
+input OrderInput {
+  orderId: ID!
+  customer: String
+  
+}
 type Query {
-  products(filter: ProductFilter): [Product]
+  products: [Product]
   product(id: ID!): Product
   order(id: ID!): Order
 }
